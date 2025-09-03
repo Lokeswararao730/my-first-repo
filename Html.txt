@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Profile Card</title>
+  <style>
+    /* Universal Selector: Reset spacing and apply common styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .profile-card {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      width: 300px;
+    }
+
+    /* Type selector for profile image */
+    img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    /* Type selector: Large font for profile name */
+    h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    /* Type selector: Smaller font for bio */
+    p {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    /* Class selector: Button styling and hover effect */
+    .follow-btn {
+      padding: 10px 20px;
+      background-color: #2a9d8f;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .follow-btn:hover {
+      background-color: #1f776b;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="profile-card">
+    <img src="C:\Users\Lenovo\OneDrive\Desktop\Sireesha\IMG-20250725-WA0012.jpg" alt="supreeth">
+    <h2>Supreeth</h2>
+    <p>Web developer and tech enthusiast. Loves building responsive designs and solving real-world problems.</p>
+    <button class="follow-btn">Follow</button>
+  </div>
+
+</body>
+</html>
